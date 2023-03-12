@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myelement(){
+          var t= document.getElementById("demo");
+          if(t.innerHTML=="Hello World"){
+            t.innerHTML="Powered by DOM";
+          }
+          else{
+            t.innerHTML="Hello World"
+          }
+        }
+     
+   </script>
+</head>
+<body>
+    <h1 id="demo">Hello World</h1>
+    <ps>Welcome to the world of DOM, hope you like it</p>
+    <input type="button" value="click"
+    onclick="myelement()" />
+    
+</body>
+</html>
